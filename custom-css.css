@@ -1,0 +1,378 @@
+
+/*
+ * WWW: automotoprikryl.cz
+ * Author: Petr Náledník
+ * Email: info@automotoprikryl.cz
+ * Copyright 2020
+*/
+
+.categoryBoxMenu .categoryBoxMenu__linkWrap{
+    display: none;
+  }
+  .categoryBoxMenu .categoryBoxMenu__title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .categoryBoxMenu .categoryBoxMenu__title::before{
+    content: "";
+    height: 80px;
+    width: 200px;
+    display: flex;
+    margin-bottom: 20px;
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  
+  
+  /*level 1*/
+  
+  .categoryBoxMenu__title[href*="nabytek-kempingovy"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47147/47147_257265530.jpeg");
+  }
+  .categoryBoxMenu__title[href*="thetford-chemie-a-chemicke-wc"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49979/49979_1660144255.jpeg");
+  }
+  .categoryBoxMenu__title[href*="markyzy"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49415/49415_3015191818.jpeg");
+  }
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78787/78787_1649183.jpeg");
+  }
+  .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47546/47546_3390320542.jpeg");
+  }
+  .categoryBoxMenu__title[href*="veci-do-kuchyne"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41562/41562_2283652001.jpeg");
+  }
+  .categoryBoxMenu__title[href*="upinaci-material-tyce"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44791/44791_2894690284.jpeg");
+  }
+  .categoryBoxMenu__title[href*="koberce-podlazky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49690/49690_1148539211.jpeg");
+  }
+  .categoryBoxMenu__title[href*="elektronika"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47674/47674_1519103781.jpeg");
+  }
+  .categoryBoxMenu__title[href*="motorove-pojezdy-enduro"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45214/45214_2014760724.jpeg");
+  }
+  .categoryBoxMenu__title[href*="nezbytnosti"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45213/45213_1926481421.jpeg");
+  }
+  .categoryBoxMenu__title[href*="osvetleni-svitidla"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49512/49512_1455378221.jpeg");
+  }
+  .categoryBoxMenu__title[href*="matrace-spaci-pytle"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45320/45320_705926677.jpeg");
+  }
+  .categoryBoxMenu__title[href*="kryci-plachty-obaly-na-karavan"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/54k/54009/54009_2864090388.jpeg");
+  }
+  .categoryBoxMenu__title[href*="organizery-kapsare"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47582/47582_2825572976.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-tasky-na-prislusenstvi"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49728/49728_4194811677.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-plachty-na-zahradni-nabytek"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45199/45199_3019686878.jpeg");
+  }
+  
+  
+  
+  /* Nábytek - kempingový level 2 */
+  
+  .categoryBoxMenu__title[href*="zidle-a-kresla"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47147/47147_257265530.jpeg");
+  }
+  .categoryBoxMenu__title[href*="lehatka"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78571/78571_490355828.jpeg");
+  }
+  .categoryBoxMenu__title[href*="stoly"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78686/78686_594624959.jpeg");
+  }
+  .categoryBoxMenu__title[href*="skrinky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47120/47120_1988820969.jpeg");
+  }
+  .categoryBoxMenu__title[href*="vozicky-pro-prevazeni-nezbytnosti"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/46k/46966/46966_1062221910.jpeg");
+  }
+  .categoryBoxMenu__title[href*="plazova-kolekce"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/46k/46734/46734_690703063.jpeg");
+  }
+  
+  
+  
+  /* Nábytek - kempingový level 3 */
+  
+  .categoryBoxMenu__title[href*="zidle"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78632/78632_628019608.jpeg");
+  }
+  .categoryBoxMenu__title[href*="klasicka-kresla"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78517/78517_2823769209.jpeg");
+  }
+  .categoryBoxMenu__title[href*="detske-zidle"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78764/78764_1179973230.jpeg");
+  }
+  .categoryBoxMenu__title[href*="prislusenstvi"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78505/78505_4245774151.jpeg");
+  }
+  
+  .categoryBoxMenu__title[href*="kuchynske-skrinky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47503/47503_3742920950.jpeg");
+  }
+  .categoryBoxMenu__title[href*="skrinky-pro-ukladani"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78655/78655_1555144971.jpeg");
+  }
+  
+  
+  
+  /* THETFORD chemie a chemické WC level 2 */
+  
+  .categoryBoxMenu__title[href*="chemicke-wc"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/83k/83225/83225_1619948685.jpeg");
+  }
+  .categoryBoxMenu__title[href*="chemie-do-wc"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/56k/56683/56683_3588028994.png");
+  }
+  
+  
+  /* Příslušenství k markýze level 2 */
+  
+  .categoryBoxMenu__title[href*="bocnice"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78779/78779_3391813628.jpeg");
+  }
+  .categoryBoxMenu__title[href*="predni-dily"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78829/78829_1907812670.jpeg");
+  }
+  .categoryBoxMenu__title[href*="kotvici-material"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41603/41603_3701080502.jpeg");
+  }
+  .categoryBoxMenu__title[href*="predstany"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53119/53119_2067064810.jpeg");
+  }
+  
+  
+  
+  /* Stany, předstany a přístřešky, zástěny level 2 */
+  
+      .categoryBoxMenu__title[href*="predstany-k-markyze"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53119/53119_2067064810.jpeg");
+      }
+      .categoryBoxMenu__title[href*="predstany"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49772/49772_558950042.jpeg");
+      }
+      .categoryBoxMenu__title[href*="predstany-a-pristresky-k-dodavkam"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78483/78483_1868865510.jpeg");
+      }
+      .categoryBoxMenu__title[href*="pristresky-ke-karavanum"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48642/48642_915500705.jpeg");
+      }
+      .categoryBoxMenu__title[href*="vnitrni-stany-loznice"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44598/44598_3073621242.jpeg");
+      }
+      .categoryBoxMenu__title[href*="turisticke-stany"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47760/47760_645455522.jpeg");
+      }
+      .categoryBoxMenu__title[href*="stany-pro-uskladneni-kuchynky"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45294/45294_3285085452.jpeg");
+      }
+      .categoryBoxMenu__title[href*="zastineni-oken"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44742/44742_3544815448.jpeg");
+      }
+      .categoryBoxMenu__title[href*="zasteny-proti-slunci-tarpy"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47550/47550_452997722.jpeg");
+      }
+      .categoryBoxMenu__title[href*="zasteny-proti-vetru"]::before{
+            background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45739/45739_734804231.jpeg");
+      }
+
+
+  /* Stany, předstany a přístřešky, zástěny level 3 */
+  /* Stany, předstany a přístřešky, zástěny level 4 */
+
+  
+  /* Věci do kuchyně level 2 */
+  
+  .categoryBoxMenu__title[href*="nadobi"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48958/48958_1092697511.jpeg");
+  }
+  .categoryBoxMenu__title[href*="hrnce-konvice"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49937/49937_714443073.jpeg");
+  }
+  .categoryBoxMenu__title[href*="doplnky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48977/48977_3069642637.jpeg");
+  }
+  
+  /* Věci do kuchyně level 3 */
+  
+  .categoryBoxMenu__title[href*="jidelni-sady"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78724/78724_465086306.jpeg");
+  }
+  .categoryBoxMenu__title[href*="misky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78993/78993_2380333077.jpeg");
+  }
+  .categoryBoxMenu__title[href*="hrnky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/79k/79162/79162_1286295662.jpeg");
+  }
+  .categoryBoxMenu__title[href*="sklenice"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/79k/79190/79190_3510081730.jpeg");
+  }
+  .categoryBoxMenu__title[href*="ulozne-boxy-na-svacinu"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49910/49910_245803230.jpeg");
+  }
+  .categoryBoxMenu__title[href*="jednotlive-kusy-1"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/79k/79095/79095_1981152664.jpeg");
+  }
+  
+  
+  
+  /* Upínací materiál , tyče level 2 */
+  
+  .categoryBoxMenu__title[href*="tyce"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78813/78813_3657156915.jpeg");
+  }
+  .categoryBoxMenu__title[href*="koliky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44789/44789_1746368538.jpeg");
+  }
+  .categoryBoxMenu__title[href*="uvazky-snury-popruhy-atd"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44792/44792_570847247.jpeg");
+  }
+  .categoryBoxMenu__title[href*="doplnky"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48984/48984_3888238527.jpeg");
+  }
+  .categoryBoxMenu__title[href*="peggy-peg"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49983/49983_747247974.jpeg");
+  }
+  .categoryBoxMenu__title[href*="specialni-profily"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45220/45220_3318873387.jpeg");
+  }
+  
+  
+  
+  /* Upínací materiál , tyče level 3 */
+  
+  .categoryBoxMenu__title[href*="sklolaminatove"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44780/44780_2002281265.jpeg");
+  }
+  .categoryBoxMenu__title[href*="kovove"]::before{
+        background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44774/44774_749445658.jpeg");
+  }
+  
+  
+  
+  /* Koberce, podlážky level 2 */
+
+
+.categoryBoxMenu__title[href*="koberce"]::before{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49840/49840_2884863663.jpeg");
+}
+.categoryBoxMenu__title[href*="/podlazky"]::before{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44590/44590_1691789135.jpeg");
+}
+.categoryBoxMenu__title[href*="folie"]::before{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45304/45304_2158997609.jpeg");
+}
+
+
+  /* Nezbytnosti level 2 */
+
+  .categoryBoxMenu__title[href*="vse-okolo-vozu"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48880/48880_2353638011.png");
+  }
+  .categoryBoxMenu__title[href*="zastineni-oken"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44741/44741_1573294267.jpeg");
+  }
+  .categoryBoxMenu__title[href*="uklid-cisteni"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45361/45361_3142961031.jpeg");
+  }
+  .categoryBoxMenu__title[href*="susaky-na-pradlo"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47412/47412_3943370517.jpeg");
+  }
+  .categoryBoxMenu__title[href*="kanystry-cerpadla-sprchy"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45756/45756_2180403745.jpeg");
+  }
+  .categoryBoxMenu__title[href*="schody-a-jejich-doplnky"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41538/41538_1397398054.jpeg");
+  }
+  .categoryBoxMenu__title[href*="hubeni-hmyzu"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41669/41669_1044407540.jpeg");
+  }
+  .categoryBoxMenu__title[href*="nafukovaci-pumpy"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45806/45806_980045027.jpeg");
+  }
+  .categoryBoxMenu__title[href*="hracky"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48800/48800_932251747.png");
+  }
+  
+  /* Osvětlení, svítidla level 2 */
+
+  .categoryBoxMenu__title[href*="vestavna-svitidla"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49506/49506_3314439572.jpeg");
+  }
+  .categoryBoxMenu__title[href*="prenosna-svitidla"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47260/47260_3226539494.jpeg");
+  }
+
+  /* Matrace, spací pytle level 2 */
+  
+  .categoryBoxMenu__title[href*="spaci-pytle"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45320/45320_705926677.jpeg");
+  }
+  .categoryBoxMenu__title[href*="matrace"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45801/45801_816793082.jpeg");
+  }
+  .categoryBoxMenu__title[href*="karimatky"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45797/45797_2875761067.jpeg");
+  }
+  .categoryBoxMenu__title[href*="pumpy-pro-nafukovani"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41517/41517_2761728012.jpeg");
+  }
+
+  /* Krycí plachty, obaly na karavan level 2 */
+
+  .categoryBoxMenu__title[href*="pro-karavan"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53845/53845_2585369632.jpeg");
+  }
+  .categoryBoxMenu__title[href*="pro-obytne-auto"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/54k/54013/54013_739083679.jpeg");
+  }
+  .categoryBoxMenu__title[href*="pro-dodavku"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/54k/54009/54009_2864090388.jpeg");
+  }
+
+  /* Krycí plachty, obaly na karavan level 3 */
+
+  .categoryBoxMenu__title[href*="pro-karavan/cely"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53845/53845_2585369632.jpeg");
+  }
+  .categoryBoxMenu__title[href*="pro-karavan/strecha"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53998/53998_529597848.jpeg");
+  }
+  
+  /* Obaly, plachty na zahradní nábytek level 2 */
+
+  .categoryBoxMenu__title[href*="obaly-na-stoly"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44881/44881_1257846818.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-na-slunecniky"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44643/44643_4028759288.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-na-zahradni-sestavy"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45188/45188_1747834627.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-na-polstrovani"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44648/44648_2907431086.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obal-na-zidle-lavicky-lehatka"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44645/44645_911144319.jpeg");
+  }
+  .categoryBoxMenu__title[href*="obaly-plachty-na-zahradni-nabytek/ostatni"]::before{
+      background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45199/45199_3019686878.jpeg");
+  }
