@@ -18,8 +18,8 @@
   }
   .categoryBoxMenu .categoryBoxMenu__title::before{
     content: "";
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 220px;
     display: flex;
     margin-bottom: 20px;
     mix-blend-mode: multiply;
