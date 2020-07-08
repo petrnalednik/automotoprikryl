@@ -45,7 +45,7 @@
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47147/47147_257265530.jpeg");
   }
   .categoryBoxMenu__title[href*="thetford-chemie-a-chemicke-wc"]::before{
-        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford-chemie.jpeg");
+        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford-chemie.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="markyzy"]::before{
         content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/markyza-thule.jpg");
