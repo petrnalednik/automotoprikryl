@@ -171,11 +171,11 @@
   
   /* Stany, předstany a přístřešky, zástěny level 2 */
   
-      .categoryBoxMenu__title[href*="predstany-k-markyze"]::before{
-            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/53k/53119/53119_2067064810.jpeg");
+      .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany-k-markyze"]::before{
+            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
       }
-      .categoryBoxMenu__title[href*="predstany"]::before{
-            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49772/49772_558950042.jpeg");
+      .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany"]::before{
+            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
       }
       .categoryBoxMenu__title[href*="predstany-a-pristresky-k-dodavkam"]::before{
             content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78483/78483_1868865510.jpeg");
@@ -244,23 +244,23 @@
   
   /* Upínací materiál , tyče level 2 */
   
-  .categoryBoxMenu__title[href*="tyce"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78813/78813_3657156915.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/tyce"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78813/78813_3657156915.jpeg") !important;
   }
-  .categoryBoxMenu__title[href*="koliky"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44789/44789_1746368538.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/koliky"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44789/44789_1746368538.jpeg") !important;
   }
-  .categoryBoxMenu__title[href*="uvazky-snury-popruhy-atd"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44792/44792_570847247.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/uvazky-snury-popruhy-atd"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44792/44792_570847247.jpeg") !important;
   }
-  .categoryBoxMenu__title[href*="doplnky"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48984/48984_3888238527.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/doplnky"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48984/48984_3888238527.jpeg") !important;
   }
-  .categoryBoxMenu__title[href*="peggy-peg"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49983/49983_747247974.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/peggy-peg"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49983/49983_747247974.jpeg") !important ;
   }
-  .categoryBoxMenu__title[href*="specialni-profily"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45220/45220_3318873387.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/specialni-profily"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45220/45220_3318873387.jpeg") !important;
   }
   
   
