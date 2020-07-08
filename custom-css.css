@@ -145,10 +145,10 @@
   /* THETFORD chemie a chemické WC level 2 */
   
   .categoryBoxMenu__title[href*="chemicke-wc"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/83k/83225/83225_1619948685.jpeg");
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/83k/83225/83225_1619948685.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="chemie-do-wc"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/56k/56683/56683_3588028994.png");
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/56k/56683/56683_3588028994.png") !important;
   }
   
   
@@ -384,4 +384,10 @@
   }
   .categoryBoxMenu__title[href*="obaly-plachty-na-zahradni-nabytek/ostatni"]::before{
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45199/45199_3019686878.jpeg");
+  }
+
+
+
+  .categoryBoxMenu__title[href*="prislusenstvi-nosicu-jizdnich-kol"]::before {
+      content: none;
   }
