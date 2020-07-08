@@ -6,6 +6,13 @@
  * Copyright 2020
 */
 
+.categoryBoxMenu {
+      padding: 0;
+      margin-bottom: 20px;
+      display: block;
+      width: 100%;
+      background: #f3f7fb;
+  }
 .categoryBoxMenu .categoryBoxMenu__linkWrap{
     display: none;
   }
@@ -15,6 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    white-space: normal;
   }
   .categoryBoxMenu .categoryBoxMenu__title::before{
     content: "";
