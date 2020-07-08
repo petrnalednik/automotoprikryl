@@ -36,7 +36,7 @@
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47147/47147_257265530.jpeg");
   }
   .categoryBoxMenu__title[href*="thetford-chemie-a-chemicke-wc"]::before{
-        background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford.jpeg");
+        background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford-chemie.jpeg");
   }
   .categoryBoxMenu__title[href*="markyzy"]::before{
         background-image: url("https://petrnalednik.github.io/automotoprikryl/markyza-thule.jpg");
@@ -45,13 +45,13 @@
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78787/78787_1649183.jpeg");
   }
   .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny"]::before{
-        background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg");
+        background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg") !important;
   }
   .categoryBoxMenu__title[href*="veci-do-kuchyne"]::before{
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41562/41562_2283652001.jpeg");
   }
   .categoryBoxMenu__title[href*="upinaci-material-tyce"]::before{
-        background-image: url("https://petrnalednik.github.io/automotoprikryl/upinaci-material-tyce.jpeg");
+        background-image: url("https://petrnalednik.github.io/automotoprikryl/upinaci-material-tyce.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="koberce-podlazky"]::before{
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49690/49690_1148539211.jpeg");
@@ -78,7 +78,7 @@
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47582/47582_2825572976.jpeg");
   }
   .categoryBoxMenu__title[href*="obaly-tasky-na-prislusenstvi"]::before{
-        background-image: url("https://petrnalednik.github.io/automotoprikryl/obaly-tasky-na-prislusenstvi.jpeg");
+        background-image: url("https://petrnalednik.github.io/automotoprikryl/obaly-tasky-na-prislusenstvi.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="obaly-plachty-na-zahradni-nabytek"]::before{
         background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45199/45199_3019686878.jpeg");
