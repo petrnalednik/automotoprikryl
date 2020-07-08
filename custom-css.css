@@ -45,7 +45,7 @@
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/47k/47147/47147_257265530.jpeg");
   }
   .categoryBoxMenu__title[href*="thetford-chemie-a-chemicke-wc"]::before{
-        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford-chemie.jpeg") !important;
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/52k/52525/52525_3715346906.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="markyzy"]::before{
         content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/markyza-thule.jpg");
@@ -145,10 +145,10 @@
   /* THETFORD chemie a chemické WC level 2 */
   
   .categoryBoxMenu__title[href*="chemicke-wc"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/83k/83225/83225_1619948685.jpeg") !important;
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/52k/52525/52525_3715346906.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="chemie-do-wc"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/56k/56683/56683_3588028994.png") !important;
+        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/thetford-chemie.png") !important;
   }
   
   
