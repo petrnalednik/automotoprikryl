@@ -50,9 +50,7 @@
   .categoryBoxMenu__title[href*="markyzy"]::before{
         content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/markyza-thule.jpg");
   }
-  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78787/78787_1649183.jpeg");
-  }
+
   .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny"]::before{
         content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg") !important;
   }
@@ -177,8 +175,8 @@
       .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany"]::before{
             content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
       }
-      .categoryBoxMenu__title[href*="predstany-a-pristresky-k-dodavkam"]::before{
-            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78483/78483_1868865510.jpeg");
+      .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny/predstany-a-pristresky-k-dodavkam"]::before{
+            content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/pristresky-dodavky.jpg") !important;
       }
       .categoryBoxMenu__title[href*="pristresky-ke-karavanum"]::before{
             content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48642/48642_915500705.jpeg");
@@ -268,10 +266,10 @@
   /* Upínací materiál , tyče level 3 */
   
   .categoryBoxMenu__title[href*="sklolaminatove"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44780/44780_2002281265.jpeg");
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44780/44780_2002281265.jpeg") !important;
   }
-  .categoryBoxMenu__title[href*="kovove"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44774/44774_749445658.jpeg");
+  .categoryBoxMenu__title[href*="upinaci-material-tyce/tyce/kovove"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44769/44769_2698355592.jpeg") !important;
   }
   
   
@@ -391,3 +389,9 @@
   .categoryBoxMenu__title[href*="prislusenstvi-nosicu-jizdnich-kol"]::before {
       content: none;
   }
+
+
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze"]::before{
+      content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/34k/34684/34684_1749610362.jpeg");
+}
+  
