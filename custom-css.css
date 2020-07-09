@@ -395,3 +395,24 @@
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/34k/34684/34684_1749610362.jpeg");
 }
   
+
+
+
+/* kolekce zobrazování */
+
+.collection .row{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.collection-product-col{
+      padding-bottom: 20px
+}
+@media (min-width: 768px){
+      .product-column {
+            margin: 0px 0;
+      }
+}  
+.product-column {
+      height: 100%;
+}
