@@ -407,9 +407,15 @@
       content: none;
 }
 .collection-product-col{
-      padding-bottom: 20px
+      padding-bottom: 20px;
+      flex-basis: 25%;
 }
-@media (min-width: 768px){
+@media all and (max-width: 767px){
+      .collection-product-col{
+            flex-basis: 50%;
+      }
+} 
+@media all and (min-width: 768px){
       .product-column {
             margin: 0px 0;
       }
