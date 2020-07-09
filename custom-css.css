@@ -403,7 +403,9 @@
       display: flex;
       flex-wrap: wrap;
 }
-
+.collection .row::before, .collection .row::after{
+      content: none;
+}
 .collection-product-col{
       padding-bottom: 20px
 }
