@@ -168,12 +168,11 @@
   
   
   /* Stany, předstany a přístřešky, zástěny level 2 */
-  
-      .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany-k-markyze"]::before{
-            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
-      }
       .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany"]::before{
             content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg") !important;
+      }
+      .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany-k-markyze"]::before{
+            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
       }
       .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny/predstany-a-pristresky-k-dodavkam"]::before{
             content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/pristresky-dodavky.jpg") !important;
