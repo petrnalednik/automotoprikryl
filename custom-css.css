@@ -152,16 +152,16 @@
   
   /* Příslušenství k markýze level 2 */
   
-  .categoryBoxMenu__title[href*="bocnice"]::before{
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/bocnice"]::before{
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78779/78779_3391813628.jpeg");
   }
-  .categoryBoxMenu__title[href*="predni-dily"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78829/78829_1907812670.jpeg");
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/predni-dily"]::before{
+        content: "";background-image: url("https://cdn1.static-tgdp.com/ui/productimages/approved/std.lang.all/11/31/521131_sized_1800x1200_rev_1.jpg");
   }
-  .categoryBoxMenu__title[href*="kotvici-material"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/41k/41603/41603_3701080502.jpeg");
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/kotvici-material"]::before{
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44975/44975_4274557495.jpeg");
   }
-  .categoryBoxMenu__title[href*="predstany"]::before{
+  .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/predstany"]::before{
         content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg");
   }
   
@@ -173,7 +173,7 @@
             content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
       }
       .categoryBoxMenu__title[href*="stany-a-pristresky-zasteny/predstany"]::before{
-            content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44684/44684_483395317.jpeg") !important;
+            content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg") !important;
       }
       .categoryBoxMenu__title[href*="stany-predstany-a-pristresky-zasteny/predstany-a-pristresky-k-dodavkam"]::before{
             content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/pristresky-dodavky.jpg") !important;
@@ -329,8 +329,8 @@
 
   /* Matrace, spací pytle level 2 */
   
-  .categoryBoxMenu__title[href*="spaci-pytle"]::before{
-      content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45320/45320_705926677.jpeg");
+  .categoryBoxMenu__title[href*="matrace-spaci-pytle/spaci-pytle"]::before{
+      content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44760/44760_3214588067.jpeg");
   }
   .categoryBoxMenu__title[href*="matrace"]::before{
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45801/45801_816793082.jpeg");
