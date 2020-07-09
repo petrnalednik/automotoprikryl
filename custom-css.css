@@ -153,16 +153,16 @@
   /* Příslušenství k markýze level 2 */
   
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/bocnice"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78779/78779_3391813628.jpeg");
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/78k/78779/78779_3391813628.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/predni-dily"]::before{
-        content: "";background-image: url("https://cdn1.static-tgdp.com/ui/productimages/approved/std.lang.all/11/31/521131_sized_1800x1200_rev_1.jpg");
+        content: "";background-image: url("https://cdn1.static-tgdp.com/ui/productimages/approved/std.lang.all/11/31/521131_sized_1800x1200_rev_1.jpg") !important;
   }
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/kotvici-material"]::before{
-        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44975/44975_4274557495.jpeg");
+        content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44975/44975_4274557495.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze/predstany"]::before{
-        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg");
+        content: "";background-image: url("https://petrnalednik.github.io/automotoprikryl/stany-predstany.jpg") !important;
   }
   
   
@@ -330,7 +330,7 @@
   /* Matrace, spací pytle level 2 */
   
   .categoryBoxMenu__title[href*="matrace-spaci-pytle/spaci-pytle"]::before{
-      content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44760/44760_3214588067.jpeg");
+      content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/44k/44760/44760_3214588067.jpeg") !important;
   }
   .categoryBoxMenu__title[href*="matrace"]::before{
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/45k/45801/45801_816793082.jpeg");
