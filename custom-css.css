@@ -390,12 +390,17 @@
   }
 
 
+
+
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze"]::before{
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/34k/34684/34684_1749610362.jpeg");
 }
-  
-
-
+.categoryBoxMenu__title[href*="nosice-pro-zimni-sporty/nosice-lyzi-a-snowboardu"]::before {
+      content: none;
+}
+.categoryBoxMenu__title[href*="stresni-boxy/prislusenstvi-stresnich-boxu"]::before {
+      content: none;
+}
 
 /* kolekce zobrazování */
 
