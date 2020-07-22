@@ -212,7 +212,7 @@
   .categoryBoxMenu__title[href*="hrnce-konvice"]::before{
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/49k/49937/49937_714443073.jpeg");
   }
-  .categoryBoxMenu__title[href*="doplnky"]::before{
+  .categoryBoxMenu__title[href*="domacnost/doplnky"]::before{
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/48k/48977/48977_3069642637.jpeg");
   }
   
@@ -390,17 +390,12 @@
   }
 
 
-
-
   .categoryBoxMenu__title[href*="prislusenstvi-k-markyze"]::before{
       content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/km.automotoprikryl.cz/images/0m/34k/34684/34684_1749610362.jpeg");
 }
-.categoryBoxMenu__title[href*="nosice-pro-zimni-sporty/nosice-lyzi-a-snowboardu"]::before {
-      content: none;
-}
-.categoryBoxMenu__title[href*="stresni-boxy/prislusenstvi-stresnich-boxu"]::before {
-      content: none;
-}
+  
+
+
 
 /* kolekce zobrazování */
 
