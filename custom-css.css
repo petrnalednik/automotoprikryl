@@ -127,7 +127,7 @@
   .categoryBoxMenu__title[href*="detske-zidle"]::before{
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/kvikymart-data/automotoprikryl.cz/images/0m/78k/78764/78764_1179973230.jpeg");
   }
-  .categoryBoxMenu__title[href*="prislusenstvi"]::before{
+  .categoryBoxMenu__title[href*="zidle-a-kresla/prislusenstvi"]::before{
         content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/kvikymart-data/automotoprikryl.cz/images/0m/78k/78505/78505_4245774151.jpeg");
   }
   
@@ -276,7 +276,7 @@
   /* Koberce, podlážky level 2 */
 
 
-.categoryBoxMenu__title[href*="koberce"]::before{
+.categoryBoxMenu__title[href*="koberce-podlazky/koberce"]::before{
     content: "";background-image: url("https://s3-eu-west-1.amazonaws.com/kvikymart-data/automotoprikryl.cz/images/0m/49k/49840/49840_2884863663.jpeg");
 }
 .categoryBoxMenu__title[href*="/podlazky"]::before{
